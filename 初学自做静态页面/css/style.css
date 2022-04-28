@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;text-decoration:none;}
+
+/* mainbanner */
+.mainbanner
+{
+	height:600px;
+	overflow:hidden; 
+	position:relative;
+	animation: lbt;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	width:100%;
+	text-align: center;
+}
+@keyframes lbt
+{
+	0%{background-image: url(../img/adv1.jpg);}
+	25%{background-image: url(../img/adv2.jpg);}
+	50%{background-image: url(../img/adv3.jpg);}
+	100%{background-image: url(../img/adv4.jpg);}
+}
+			 
+
+

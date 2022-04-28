@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#i1{
+				width: 100%;
+				height: 50px;
+				background-color: white;
+			}
+			#i11{
+				float: left;
+				width: 20%;
+				font-family:方正舒体 ;
+				font-size: 40px;
+				color: red;
+			}
+			#i12{
+				float: left;
+				width: 40%;
+				margin: 0px;
+				}
+			#i13{
+				float: left;
+				width: 25%;
+			}
+			#i14{
+				float: left;
+				width: 10%;
+				
+			}
+			#i13 input{
+				float: left;//左浮动
+				flex: 4;
+				height: 30px;
+				outline: none;
+				box-sizing: border-box;
+				padding-left: 10px;
+				background-color: powderblue;
+			}
+			#i13 button{
+				float: left;
+				flex: 1;
+				height: 30px;
+				color: white;
+				border-style: none;
+				outline: none;/*去边框线*/
+				background-color: powderblue;
+			}
+		.ss{
+			font-size: 20px;/*设置字体大小*/
+		}
+		#bsj{
+			float: left;/*向左浮动*/
+			width: 40%;/*设置div宽度为外层div的40%*/
+			height: 500px;/*设置div高度*/
+			background-size: 100%;/*设置为充满整个div*/
+			position: relative;
+			right: -20px;
+			background-color: white;
+			margin: 30px 50px 50px 50px;
+			top: 20px;
+			
+		}
+		#bsj1{
+			float: left;/*向左浮动*/
+			width: 50%;/*设置div宽度为外层div的50%*/
+			
+		}
+		#bsj2{
+			float: left;/*向左浮动*/
+			width:10%;/*设置div宽度为外层div的10%*/
+			
+		}
+		#bsj5{
+			width: 100%;
+		}
+		#bsj3{
+			float: left;/*向左浮动*/
+			width:20%;/*设置div宽度为外层div的50%*/    
+		      
+		}
+		#bsj4{
+			float: left;/*向左浮动*/
+			width:20%;/*设置div宽度为外层div的50%*/		
+		}
+		#p1{
+			font-size:40px ;/*设置字体大小*/
+		}
+		#p2{
+			color: red;/*设置字体颜色*/
+		}
+		.ss1{
+			font-size: 20px;/*设置字体大小*/
+		}
+		a{
+			text-decoration: none;/*去除下划线*/
+		}
+		#bj{
+			height: 1000px;/*设置div高度*/
+			background-color: white;
+		}
+		#bj1{
+			background-color: darkgrey;
+			height: 580px;/*设置div高度*/
+		}
+		#bj2{
+			background-color: darkgrey;
+			height: 500px;/*设置div高度*/
+			
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover{
+			text-decoration: none;
+			color: #FF0000;
+		}
+		#bsj3 a{
+			text-decoration: none;
+			color: white;
+		}
+		#bsj3 a:hover{
+			text-decoration: none;
+			color: #FF0000;
+		}
+		#bsj4 a{
+			text-decoration: none;
+			color: white;
+		}
+		#bsj4 a:hover{
+			text-decoration: none;
+			color: #FF0000;
+		}
+		</style>
+		<script>
+			function cr(){
+				alert("加入成功");/*弹窗按钮*/
+			}
+		</script>
+	</head>
+	<body>
+		<div id="bj">
+			<div id="i1">
+				<div id="i11">
+					&nbsp;&nbsp;<span><b>VMALL</b></span>
+				</div>
+				<div id="i12">
+					<span>华为专区</span>
+				</div>
+				<div id="i13">
+					<input type="search" class="name" id="names" placeholder="搜索"style="background-color: white;">
+					<button><img src="img/搜素图标.png" alt="" width="20px" height="20px" ></button>
+				</div>
+				<div id="i14">
+					<a href="index.html"><span>返回首页</span></a>
+				</div>
+			</div>
+			<div id="bj1" >
+				<div id="bsj">
+					<img src="./img/pic.png" style="width: 100%;height: 100%;"/>
+				</div>
+				<div id="bsj2">
+					&nbsp;
+				</div>
+				<div id="bsj1">
+					<div>
+						<p id="p1" ><b>Mate 40  5G 全网通 12GB+512GB（陶瓷黑）</b> </p>
+					</div>
+					<div>
+						<p id="p2" class="ss">价格&nbsp;&nbsp;&nbsp;¥12999.00</p>
+					</div><br />
+					<div>
+						<span class="ss">选择颜色</span>
+						<input type="radio" id="t1" checked="checked" />
+						<label class="ss">陶瓷黑</label>
+						<input type="radio" id="t2" disabled="disabled" />
+						<label class="ss">陶瓷白</label>
+					</div><br />
+					<div>
+						<span class="ss">选择版本</span>
+						<input type="radio" id="1" name="sex" />
+						<label for="1" class="ss" >5G全网通 12GB+256GB</label>
+						<input type="radio" id="2" name="sex" />
+						<label for="2" class="ss" >5G全网通 12GB+512GB</label>
+						<input type="radio" id="3" name="sex"/>
+						<label for="3" class="ss" >5G全网通 12GB+512GB典藏版</label>
+					</div><br />
+					<div id="bsj5">
+						<div id="bsj3">
+							<a href="pay.html"><span class="ss1">立即购买</span></a>
+						</div>
+						<div id="bsj4">
+							<a href="index.html"><span class="ss1" onclick="cr()">加入购物车</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bj2">
+				<p><b>产品参数</b></p>
+				<p>传播名&nbsp;&nbsp;&nbsp;&nbsp;HUAWEI Mate 40 RS 保时捷设计<br />
+电池容量&nbsp;&nbsp;&nbsp;4400mAh（典型值）备注：电池额定容量为4300mAh。<br />
+后置摄像头&nbsp;&nbsp;&nbsp;5000万像素超感知摄像头（广角， f/1.9光圈，支持OIS光学防抖）+ 2000万像素电影摄像头（超广角，f/1.8光圈）+ 1200万像素长焦摄像头（f/2.4光圈，支持OIS光学防抖）+ 800万像素超级变焦摄像头（10倍光学变焦，f/4.4光圈，支持OIS光学防抖）+ 3D深感摄像头，支持自动对焦备注：不同拍照模式的照片像素可能有差异，请以实际为准。<br />
+前置摄像头&nbsp;&nbsp;&nbsp;1300万像素超感知摄像头（广角，f/2.4光圈）+ 3D深感摄像头备注：不同拍照模式的照片像素可能有差异，请以实际为准。<br />
+屏幕尺寸&nbsp;&nbsp;&nbsp;6.76英寸备注：显示屏采用圆角设计，按照标准矩形测量时，屏幕的对角线长度是6.76英寸（实际可视区域略小）。<br />
+屏幕色彩&nbsp;&nbsp;&nbsp;1670万色，DCI-P3广色域<br />
+运行内存（RAM）&nbsp;&nbsp;&nbsp;12GB备注：可使用的内存容量小于此值，因为手机软件占用部分空间。<br />
+机身内存（ROM）&nbsp;&nbsp;&nbsp;256GB备注：可使用的内存容量小于此值，因为手机软件占用部分空间。<br />
+分辨率&nbsp;&nbsp;&nbsp;FHD+ 2772 × 1344 像素备注：该分辨率对应标准矩形，实际屏幕有效像素略少。<br />
+CPU型号麒麟&nbsp;&nbsp;&nbsp;9000<br />
+CPU核数&nbsp;&nbsp;&nbsp;八核<br /></p>
+			</div>
+		</div>
+	</body>
+</html>

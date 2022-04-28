@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <title></title>
+   <style>
+	   body{
+		   background-color: gray;
+	   }
+   table {
+      width: 80%;
+      height: 400px;
+      margin: 0px auto;
+      text-align: center;
+      border-top: solid 1px blue;
+      border-left: solid 1px blue;
+     background-color: white;
+    }
+
+   td {
+     border-bottom: 1px solid blue;
+     border-right: 1px solid blue;
+   }
+
+    th{
+      border-bottom: 1px solid blue;
+      border-right: 1px solid blue;
+}
+    h2{
+		text-align: center;
+			}
+#hao{
+	background-color: #D5182A;
+}
+#ss{
+	float: left;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+	}
+	a:hover{
+				text-decoration: none;
+				color: #ff0000;
+			}
+</style>
+</head>
+<body>
+	<div id="ss">
+		<form action="index.html" method="get">
+		    <input type="search" placeholder="搜索手机"><input type="submit" value="搜索" id="s">
+		</form>
+	</div>
+	<!--面包屑导航-->
+	<section class="crumb-nav">您现在的位置：<a href="index.html">首页</a> &gt;&gt;购物车</section>
+	<section class="cart-table"><span class="icon-cart"></span>
+	    <h2>购物车</h2>
+	</div>
+<table align="center">
+  <tr>
+     <th>
+      <input type="checkbox" value="全选" class="quanXuanAnNiu">全选</th>
+      <th>商品名称</th>
+      <th>图片</th>
+      <th>单价</th>
+      <th>数量</th>
+      <th>总价</th>
+   </tr>
+  <tr>
+    <td><input type="checkbox" class="danXuanAnNiu"></td>
+    <td><a href="#">华为meta40 RS保时捷设计</a></td>
+    <td><img src="./img/1.png" width="50px" height="50px"></td>
+    <td>¥12999</td>
+    <td>
+      <input type="button" value="-" id="hao" />
+      <input type="text" disabled="disabled" value="1" />
+      <input type="button" value="+" id="hao"/>
+     </td>
+     <td>¥12999</td>
+  </tr>
+<tr>
+     <td><input type="checkbox" class="danXuanAnNiu"></td>
+     <td><a href="#">小米10</a></td>
+     <td><img src="./img/2.png" width="50px" height="50px"></td>
+     <td>¥3799</td>
+    <td>
+      <input type="button" value="-" id="hao"/>
+      <input type="text" disabled="disabled" value="1" />
+      <input type="button" value="+" id="hao"/>
+    </td>
+    <td>¥3799</td>
+ </tr>
+    <tr>
+        <td><input type="checkbox" class="danXuanAnNiu"></td>
+        <td><a href="#">oppo Reno5</a></td>
+         <td><img src="img/oppo%20reno5.jpg" width="50px" height="50px"></td>
+         <td>¥2999</td>
+      <td>
+        <input type="button" value="-" id="hao"/>
+        <input type="text" disabled="disabled" value="1" />
+        <input type="button" value="+" id="hao" />
+     </td>
+     <td>¥2999</td>
+   </tr>
+  <tr>
+    <td><input type="checkbox" class="danXuanAnNiu"></td>
+    <td><a href="#">vivo X50 Pro+</a></td>
+    <td><img src="img/vivo%20v50pro.jpg" width="50px" height="50px"></td>
+    <td>¥3298</td>
+  <td>
+      <input type="button" value="-" id="hao"/>
+      <input type="text" disabled="disabled" value="1" />
+      <input type="button" value="+" id="hao"/>
+   </td>
+   <td>¥3298</td>
+  </tr>
+</table>
+   <p align="center">总数量<span id="zongShuLiang">0</span>件&nbsp;&nbsp; &nbsp; &nbsp;总价格<span id="zongJiaGeId">0</span>元</p>
+   <a href="pay.html"><h2><button class="td2">立即购买</button></h2></a>
+   
+ </body>
+

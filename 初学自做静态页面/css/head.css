@@ -1,0 +1,98 @@
+.head-content{ background:#FFF;}
+.w1020{ width:1100px; margin:0 auto;}
+.headNav
+{ 
+height:38px; 
+background-color:#acc90b;
+}
+.headNav .navCon
+{ height:38px;
+ position:relative;
+ z-index:11;
+ font-family:"微软雅黑";
+ }
+
+
+
+.headNav .navCon .navCon-menu li
+{float: left;
+height: 38px;
+line-height: 38px;
+overflow: hidden;
+text-align: center;
+width: 141px; 
+font-family:"微软雅黑"; 
+display:block;  
+background-position:right; 
+background-repeat:no-repeat;
+font-size:15px; 
+text-align:center;}
+
+.headNav .navCon .navCon-menu li a
+{color: #FFFFFF;
+ font-weight: bold;
+ height: 38px;
+ line-height:37px;
+ text-decoration: none;
+ width: 141px;
+ font-family:"微软雅黑";
+ display:block;
+ background-position:right;
+ background-repeat:no-repeat;
+ font-size:15px; 
+ text-align:center;}
+
+.headNav .navCon .navCon-menu ul li a:hover
+{color: #ffffff; 
+font-weight: bold;
+height: 38px; 
+line-height:37px;
+text-decoration: none;
+width: 135px; 
+font-family:"微软雅黑"; 
+display:block; 
+font-size:15px; 
+text-align:center; 
+background:#669933;}
+
+
+
+/* 导航栏二级菜单 */
+.headNav .navCon .navCon-menu ul li ul li
+{
+	/* 二级菜单li内容的显示 */
+	    float:none;
+	    text-align: center;
+}
+.headNav .navCon .navCon-menu ul li:hover ul
+{
+    /* 鼠标选中二级菜单内容时 */
+    display: block;
+}
+.erji
+{
+	border: none;
+	width: 400px;
+	height: 180px;
+	position: absolute;
+	top: 10px;
+	display: none;
+	margin-top: 30px;
+	background-color: #acc90b;
+	float: left;
+}
+.eli
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 100px;
+	position: relative;
+	float: left;
+	height: 200px;
+}
+.zi
+{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "宋体";
+}

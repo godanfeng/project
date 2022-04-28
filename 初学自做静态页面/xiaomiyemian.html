@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#i1{
+				width: 100%;
+				height: 50px;
+				background-color: white;
+			}
+			#i2{
+				width: 100%;
+				height: 200px;
+				background-color: powderblue;
+			}
+			#i11{
+				float: left;
+				width: 20%;
+				font-family:方正舒体 ;
+				font-size: 40px;
+				color: red;
+			}
+			#i12{
+				float: left;
+				width: 40%;
+				margin: 0px;
+				}
+			#i13{
+				float: left;
+				width: 25%;
+			}
+			#i14{
+				float: left;
+				width: 10%;
+				
+			}
+			#i13 input{
+				float: left;//左浮动
+				flex: 4;
+				height: 30px;
+				outline: none;
+				box-sizing: border-box;
+				padding-left: 10px;
+				background-color: powderblue;
+     		}
+			#i13 button{
+				float: left;
+				flex: 1;
+				height: 30px;
+				color: white;
+				border-style: none;
+				outline: none;/*去边框线*/
+				background-color: powderblue;
+			}
+			
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			a:hover{
+				text-decoration: none;
+				color: #FF0000;
+			}
+			
+			#sp1{
+				font-size: 5px;
+				position: relative;
+				top: 5px;
+			}
+			
+			#i14{
+				background-color: whites;
+			}
+			
+			.ta{
+				background-color: white;
+				font-size: 10px;
+				width: 97%;
+				height: 120px;
+				position: relative;
+				right: -20px;
+				
+			}
+			
+			#all{
+				background-color: darkgrey;
+				height: 1500px;
+				width: 100%;
+			}
+			#di1{
+				width: 25%;
+				height: 580px;
+				background-color: white;
+				position: relative;
+				right: -20px;
+				float: left;
+				margin: 0px 100px 0px 10px;
+			}
+			
+			#di2{
+				width: 25%;
+				height: 580px;
+				background-color: white;
+				position: relative;
+				margin: 0px 50px 0px 50px;
+				top: 0px;
+				float: left;
+			}
+			
+			#di3{
+				width: 25%;
+				height: 580px;
+				background-color: white;
+				position: relative;
+				margin: 0px 50px 0px 50px;
+				top: 0px;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<div id="i1">
+				<div id="i11">
+					&nbsp;&nbsp;<span><b>mi</b></span>
+				</div>
+				<div id="i12">
+					<span>小米专区</span>
+				</div>
+				<div id="i13">
+					<input type="search" class="name" id="names" placeholder="搜索"style="background-color: white;">
+					<button><img src="img/搜素图标.png" alt="" width="20px" height="20px" ></button>
+				</div>
+				<div id="i14">
+					<a href="index.html"><span>返回首页</span></a>
+				</div>
+			</div>
+			<div >
+				<span id="sp1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小米首页&nbsp;>>&nbsp;手机
+				</span>
+				<br /><br />
+				<table class="ta">
+					<tr>
+						<td>分类：</td>
+						<td>手机</td>
+						<td><pre>                                    </pre></td>
+					</tr>
+					<tr >
+						<td colspan="6"><hr></td>
+					</tr>
+					<tr>
+					<tr>
+						<td>服务优惠：</td>
+						<td>仅看有货</td>
+						<td >分期免息</td>
+						<td style="position: relative;left: -180px;">优惠商品</td>
+						<td><pre>                                    </pre></td>
+					</tr>
+					
+					<tr >
+						<td colspan="6"><hr></td>
+					</tr>
+					<tr>
+						<td>屏幕尺寸：</td>
+						<td>6.0-6.5英寸</td>
+						<td>6.5英寸以上</td>
+						<td><pre>                                    </pre></td>
+					</tr>
+					<tr >
+						<td colspan="6"><hr></td>
+					</tr>
+					<tr>
+					<tr>
+						<td>更多选项：</td>
+						<td>运行内存</td>
+						<td>储存容量</td>
+						<td style="position: relative;left: -180px;">上市时间</td>
+						<td><pre>                                    </pre></td>
+					</tr>
+				</table>
+				<br />
+			</div>
+			<br />
+			<div id="di1">
+				<a href="xiaomi.html"><img src="img/xxm.jpg" style="width: 100%;height: 70%;"/></a>
+				<p style="width: 100%;text-align: center;">小米&nbsp;10&nbsp;</p>
+				<p style="color: red;position: relative;right: -50px;">￥3799起</p>
+				<p style="color: red;position: relative;right: -55px;top: -20px;font-size: 12px;">赠送积分</p>
+				<p style="position: relative;right: -55px;top: -20px;font-size: 15px;font-weight: 50;">68880人评价&nbsp;&nbsp;&nbsp;98%好评</p>
+			</div>
+			<div id="di2">
+				<a href="xmiarf.html"><img src="img/xxmm.png" style="width: 100%;height: 70%;"/></a>
+				<p style="width: 100%;text-align: center;">小米&nbsp;MIX&nbsp;Alpha;</p>
+				<p style="color: red;position: relative;right: -50px;">￥19999起</p>
+				<p style="color: red;position: relative;right: -55px;top: -20px;font-size: 12px;">赠送积分</p>
+				<p style="position: relative;right: -55px;top: -20px;font-size: 15px;font-weight: 50;">45887人评价&nbsp;&nbsp;&nbsp;99%好评</p>
+			</div>
+			<div id="di3">
+				 <a href="xiaomi11.html"><img src="img/xm11.png" style="width: 100%;height: 70%;"/></a>
+				<p style="width: 100%;text-align: center;">小米&nbsp;11</p>
+				<p style="color: red;position: relative;right: -50px;">￥9999起</p>
+				<p style="color: red;position: relative;right: -55px;top: -20px;font-size: 12px;">赠送积分</p>
+				<p style="position: relative;right: -55px;top: -20px;font-size: 15px;font-weight: 50;">6586人评价&nbsp;&nbsp;&nbsp;99%好评</p>
+			</div>
+		</div>
+	</body>
+</html>
