@@ -1,0 +1,10 @@
+1.登录发送请求，服务器会派发一个token来做身份验证。
+  //在请求拦截器中：
+  config.headers.authorization=store.state.user.token.replaceAll("\"","") //把存储在仓库中的token取出放在请求头中发出验证。
+  
+2.对存储在浏览器中的token方法进行封装，token派发后悔存在于浏览器的localStorage中。
+  export const setToken=(token)=>{
+    localStorage.setItem('token',token)
+}
+export const getToken = () => localStorage.getItem('token')
+export const removeToken=()=>localStorage.removeItem('token')
