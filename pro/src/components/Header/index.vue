@@ -43,9 +43,6 @@ export default {
       id: ''
     };
   },
-  components: {
-    // Login
-  },
   methods: {
     enter(){
       this.sea.forEach(element => {
