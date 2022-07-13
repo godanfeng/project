@@ -1,0 +1,15 @@
+.chart1 {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  min-width: 200px;
+  min-height: 200px;
+}
+.chart1 main {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

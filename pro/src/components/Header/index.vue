@@ -75,6 +75,7 @@ export default {
       if (this.val) {
         search(this.val).then((value) => {
           this.sea = value.data
+          console.log(this.sea)
         });
       }
     }, 500),

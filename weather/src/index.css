@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: calc(100vh);
+    background: url('./images/bg.jpg') no-repeat center top;
+}
